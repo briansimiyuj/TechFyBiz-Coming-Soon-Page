@@ -80,7 +80,7 @@ p{
 .social-media li{
     margin: auto;
     font-size: 2rem;
-}
+} 
 
 .left{
     position: absolute;
@@ -300,6 +300,13 @@ p{
 
     p{
         font-size: 18px;
+    }
+
+    .countdown div{
+        font-size: 23px;
+        width: 30%;
+        line-height: 1.6;
+        height: 80px;
     }
 
 }
