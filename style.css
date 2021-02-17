@@ -183,3 +183,25 @@ p{
     }
 
 }
+
+
+
+@media(max-width: 992px){
+    
+    .bar.left{
+        left: 5rem;
+    }
+    
+    .bar.right{
+        right: 5rem;
+    }
+
+    .left{
+        left: 4.5rem;
+    }
+
+    .right{
+        right: 4.5rem;
+    }
+
+}
