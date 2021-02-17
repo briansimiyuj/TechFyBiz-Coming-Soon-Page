@@ -205,3 +205,24 @@ p{
     }
 
 }
+
+
+@media(max-width: 850px){
+    
+    .bar.left{
+        left: 3rem;
+    }
+    
+    .bar.right{
+        right: 3rem;
+    }
+
+    .left{
+        left: 2.5rem;
+    }
+
+    .right{
+        right: 2.5rem;
+    }
+
+}
