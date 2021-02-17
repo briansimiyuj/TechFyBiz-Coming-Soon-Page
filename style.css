@@ -128,3 +128,42 @@ p{
     border: 2px solid #000000;
     margin: 5px;
 }
+
+
+
+
+
+@keyframes background{
+
+    0%{
+        background: #ffffff;
+    }
+
+    15%{
+        background: lightblue;
+    }
+
+    30%{
+        background: blue;
+    }
+
+    45%{
+        background: orangered;
+    }
+
+    60%{
+        background: red;
+    }
+
+    75%{
+        background: yellow;
+    }
+
+    90%{
+        background: green;
+    }
+
+    100%{
+        background: #ffffff;
+    }
+}
