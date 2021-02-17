@@ -106,7 +106,6 @@ p{
     animation-delay: 22500ms;
 }
 
-
 .bar.right{
     position: absolute;
     top: 5rem;
@@ -118,4 +117,14 @@ p{
     top: 5rem;
     left: 12.5rem;
     z-index: 1000;
+}
+
+.menuToggler{
+    position: relative;
+    padding-top: 7px;
+}
+
+.one, .two, .three{
+    border: 2px solid #000000;
+    margin: 5px;
 }
