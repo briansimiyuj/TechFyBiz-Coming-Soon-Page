@@ -64,3 +64,17 @@ p{
 .countdown div:first-child{
     background: green;
 }
+
+.social-media{
+    width: 4rem;
+    height: 7rem;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    list-style: none;
+}
+
+.social-media li{
+    margin: 3px auto;
+}
