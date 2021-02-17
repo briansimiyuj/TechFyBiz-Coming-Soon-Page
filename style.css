@@ -251,3 +251,30 @@ p{
     }
 
 }
+
+
+@media(max-width: 650px){
+
+    .landing img{
+        width: 30%;
+        height: 25%;    
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .landing h1{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+
+    .countdown{
+        font-size: 30px;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+
+    .countdown div{
+        margin: 15px;
+    }
+
+}
