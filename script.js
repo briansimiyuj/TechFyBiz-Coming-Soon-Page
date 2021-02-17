@@ -9,6 +9,14 @@ const update = setInterval(() => {
     
     let distance = launchDate - now
 
-    console.log(distance)
+    
+
+    const days = Math.floor(distance / (1000* 60* 60* 24))
+
+    const hours = Math.floor((distance%(1000* 60* 60* 24)) / (1000* 60* 60))
+
+    const mins = Math.floor((distance%(1000* 60* 60)) / (1000* 60))
+
+    const sec = Math.floor((distance%(1000* 60)) / 1000)
 
 })
