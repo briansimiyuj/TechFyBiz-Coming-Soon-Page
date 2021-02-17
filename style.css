@@ -17,6 +17,7 @@ h1{
 p{
     font-size: 30px;
     text-transform: capitalize;
+    margin: 2rem 0;
 }
 
 .container{
@@ -166,4 +167,19 @@ p{
     100%{
         background: #ffffff;
     }
+}
+
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width: 1200px){
+
+    p{
+        font-size: 25px;
+    }
+
 }
