@@ -288,3 +288,16 @@ p{
     }
 
 }
+
+
+@media(max-width: 470px){
+
+    .bar, .social-media{
+        visibility: hidden;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+}
