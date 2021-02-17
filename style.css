@@ -78,3 +78,15 @@ p{
 .social-media li{
     margin: 3px auto;
 }
+
+.left{
+    position: absolute;
+    top: 8rem;
+    left: 12rem;    
+}
+
+.right{
+    position: absolute;
+    top: 8rem;
+    right: 12rem;    
+}
