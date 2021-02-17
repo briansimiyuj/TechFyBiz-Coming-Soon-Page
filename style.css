@@ -69,7 +69,7 @@ p{
 
 .social-media{
     width: 4rem;
-    height: 7rem;
+    height: 12rem;
     background: yellow;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,8 @@ p{
 }
 
 .social-media li{
-    margin: 3px auto;
+    margin: auto;
+    font-size: 2rem;
 }
 
 .left{
