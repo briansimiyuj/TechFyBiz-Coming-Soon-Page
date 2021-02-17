@@ -90,3 +90,32 @@ p{
     top: 8rem;
     right: 12rem;    
 }
+
+.bar{
+    width: 3rem;
+    height: 3rem;
+    background: #fff;
+    position: absolute;
+    top: 4rem;
+    right: 5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    animation-name: background;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 22500ms;
+}
+
+
+.bar.right{
+    position: absolute;
+    top: 5rem;
+    right: 12.5rem;
+}
+
+.bar.left{
+    position: absolute;
+    top: 5rem;
+    left: 12.5rem;
+    z-index: 1000;
+}
